@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Магазин товарів</title>
+  <link rel="stylesheet" href="styles.css">
+    <script src="cart.js"></script>
+</head>
+<body>
+<nav>
+    <ul>
+      <li><a href="main.html">Головна</a></li>
+      <li><a href="product.html">Пропозиції</a></li>
+    </ul>
+  </nav>
+  <!-- Сторінка товарів -->
+  <section class="products">
+    <!-- Тут буде список товарів -->
+  <div class="product">
+    <h3>Подорож до Парижу</h3>
+    <img src="image/place1.jpg" alt="Товар 1">
+    <p>Ціна: $700</p>
+    <label for="quantity-1">Кількість:</label>
+    <input type="number" id="quantity-1" value="1" min="1">
+    <button class="add-to-cart">Додати до корзини</button>
+  </div>
+   <div class="product">
+    <h3>Подорож до Перу</h3>
+    <img src="image/place2.jpg" alt="Товар 1">
+    <p>Ціна: $1200</p>
+    <label for="quantity-1">Кількість:</label>
+    <input type="number" id="quantity-1" value="1" min="1">
+    <button class="add-to-cart">Додати до корзини</button>
+  </div>
+     <div class="product">
+    <h3>Подорож до Австралії</h3>
+    <img src="image/place3.jpg" alt="Товар 1">
+    <p>Ціна: $1000</p>
+    <label for="quantity-1">Кількість:</label>
+    <input type="number" id="quantity-1" value="1" min="1">
+    <button class="add-to-cart">Додати до корзини</button>
+  </div>
+    
+    <!-- Додаткові товари... -->
+  </section>
+
+  <!-- Корзина -->
+  <div class="cart">
+    <h2>Корзина<span class="cart-counter">^0</span></h2>
+    <div class="cart-items">
+      <!-- Сюди буде додаватися вміст корзини -->
+    </div>
+    <button class="clear-cart">Очистити корзину</button>
+    <p class="total-cost">Загальна сума: $0.00</p>
+  </div>
+
+
+</body>
+</html>
